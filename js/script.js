@@ -9,6 +9,11 @@
 */
 
 // .1
-var firstName = prompt('What\'s your name?');
+var firstName = prompt('What\'s your first name?');
 console.log(firstName); //test
 console.log(typeof (firstName)); //test
+
+//.2
+var lastName = prompt('What\'s your last name?');
+console.log(lastName); //test
+console.log(typeof (lastName)); //test
