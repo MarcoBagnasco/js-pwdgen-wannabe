@@ -1,3 +1,4 @@
+/* GENERAL */
 body{
     height: 100vh;
     display: flex;
@@ -6,9 +7,11 @@ body{
     align-items:center;
     font-size: 32px;
     color: #fff;
-    background-image: url('../img/Matrix-Reboot.jpg');
+    background-image: url('https://ginoskotheon.files.wordpress.com/2016/01/matrix.gif?w=760'), url('../img/Matrix-Reboot.jpg');
     background-size: cover;
 }
+
+/* MAIN */
 main{
     max-width: 600px;
     padding: 0 30px;
@@ -25,6 +28,7 @@ main > div{
 main .pass-container{
     border: 1px solid #fff;
 }
+/* Password */
 main #view-password{
     height: 50px;
     line-height: 50px;
@@ -39,4 +43,3 @@ main #view-password{
         opacity: 0
     }
 }
-
