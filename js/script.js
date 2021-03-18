@@ -17,3 +17,8 @@ console.log(typeof (firstName)); //test
 var lastName = prompt('What\'s your last name?');
 console.log(lastName); //test
 console.log(typeof (lastName)); //test
+
+//.3
+var favoriteColor = prompt('What\'s your favorite color?');
+console.log(favoriteColor); //test
+console.log(typeof (favoriteColor)); //test
