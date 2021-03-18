@@ -28,3 +28,6 @@ console.log(typeof (favoriteColor)); //test
 var password = firstName + lastName + favoriteColor + '21';
 console.log(password); //test
 console.log(typeof (password)); //test
+
+// .5
+document.getElementById('view-password').innerHTML = 'Your password is ' + password;
