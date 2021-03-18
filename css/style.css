@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 32px;
+    color: #fff;
+    background-image: url('../img/Matrix-Reboot.jpg');
+    background-size: cover;
+}
+main{
+    max-width: 600px;
+    padding: 0 30px;
+    text-align: center;
+    background-color: #000;
+    border: 4px dotted #fff;
+}
+main h1{
+    font-size: 60px;
+}
+main > div{
+    margin-bottom: 20px;
+}
+main .pass-container{
+    border: 1px solid #fff;
+}
+main #view-password{
+    height: 50px;
+    line-height: 50px;
+    color: #00e204;
+    animation: pulse .8s linear infinite;
+}
+@keyframes pulse{
+    from, 70%{
+        opacity: 1;
+    }
+    71%, to{
+        opacity: 0
+    }
+}
+
